@@ -4,68 +4,96 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
-    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="CSS/style.css">
   <title>Abdulrahman's Blog</title>
 </head>
 
 <body>
   <div class="container">
-    <header class="box">
-      <h1 class="header-title">Abdulrahman's Blog</h1>
-      <h2 class="header-subtitle">A blog about anime</h2>
-    </header>
-    <nav class="box">
-      <a href="Pages/blog-post.html" class="nav-link nav-hide">Latest Post</a>
-      <a href="Pages/design.html" class="nav-link nav-hide">Design</a>
-      <div class="nav-sidebar">
-        <div class="sidebar-Pages">
-          <a href="#" class="nav-link">Home</a>
-          <a href="Pages/design.html" class="nav-link">Design</a>
-        </div>
-        <h2 class="sidebar-header">Latest Posts</h2>
-        <ul class="sidebar-list">
-          <li class="sidebar-list-item"><a href="Pages/blog-post.html">Straw Hat Luffy</a></li>
+    <header>
+      <p>Abdulrhams's Blog</p>
+      <p id="title">Hello and Welcome To the Anime Blog</p>
+
+      <div>
+        <ul>
+          <li><a>Post's</a></li>
+          <li><a href="/Pages/design.html">About</a></li>
         </ul>
       </div>
-    </nav>
+    </header>
 
-    <div class="box" id="main">
+    <section id="content">
 
-      <div class="box blog-card" id="post-1">
-        <img src="/Assets/Images/one-piece.jpeg" alt="Luffy" class=blog-img>
-        <div class="blog-card-text">
-          <h2 class="blog-title">Monkey D. Luffy</h2>
-          <h4 class="blog-date">Jan 8, 2023</h4>
-          <p>Monkey D. Luffy, also known as <q>Straw Hat Luffy</q> and commonly as <q>Straw Hat</q> , is the main
+      <div class="post-card" id="first-post">
+        <img src="/Assets/Images/one-piece.jpeg" alt="Luffy" class=post-img>
+        <div class="post-info">
+          <h2 class="post-title">Monkey D. Luffy</h2>
+          <h4 class="post-date">Jan 8, 2023</h4>
+          <p class="post-desc">Monkey D. Luffy, also known as <q>Straw Hat Luffy</q> and commonly as <q>Straw Hat</q> ,
+            is the main
             protagonist of the manga and anime, One Piece. He is the founder and captain of the increasingly infamous
             and powerful Straw Hat Pirates, as well as the most powerful of its top fighters. He desires to find the
             legendary treasure left behind by the late Gol D. Roger and thereby become the Pirate King, which would help
             facilitate an unknown dream of his that he has told only to his brothers and crew. He believes that being
             the Pirate King means having the most freedom in the world.</p>
-          <a href="Pages/blog-post.html" class="button">Read more &rarr;</a>
+          <a href="Pages/blog-post.html" class="post-link">More Info &rarr;</a>
         </div>
       </div>
 
-      <div class="box blog-card" id="post-2">
-        <img src="/Assets/Images/black-clover.jpeg" alt="Asta" class="blog-img">
-        <div class="blog-card-text">
-          <h2 class="blog-title">Asta</h2>
-          <h4 class="blog-date">Jan 07, 2023</h3>
-            <p>Asta is a young man of short stature with an exceptionally muscular build. He has green eyes and messy,
-              ash blond hair with bangs in front of his forehead and a single strand protruding upwards from the center
-              of his head. He keeps his hair together with a black headband, which has the gold-colored Black Bull
-              insignia and has a red-colored four-pointed star with three stitches on the back of it. He has numerous
-              scars all over his body from his strenuous physical training and a large scar on his abdomen where one
-              of Mars's Harpes pierced him.</p>
+      <div class="post-card" id="second-post">
+        <img src="/Assets/Images/black-clover.jpeg" alt="Asta" class=post-img>
+        <div class="post-info">
+          <h2 class="post-title">Asta</h2>
+          <h4 class="post-date">Jan 9, 2023</h4>
+          <p class="post-desc">Asta is a young man of short stature with an exceptionally muscular build. He has green
+            eyes and messy,
+            ash blond hair with bangs in front of his forehead and a single strand protruding upwards from the center
+            of his head. He keeps his hair together with a black headband, which has the gold-colored Black Bull
+            insignia and has a red-colored four-pointed star with three stitches on the back of it. He has numerous
+            scars all over his body from his strenuous physical training and a large scar on his abdomen where one
+            of Mars's Harpes pierced him.</p>
         </div>
       </div>
 
-    </div>
-    <footer class="box">
-      Made with <span class="heart">♥</span> by <a href="https://github.com/dhuome">Abdulrahman</a>
-    </footer>
+      <div class="post-card" id="#third-post">
+        <img src="/Assets/Images/bleach.png" alt="Ichigo" class=post-img>
+        <div class="post-info">
+          <h2 class="post-title">Ichigo Kurosaki</h2>
+          <h4 class="post-date">Jan 10, 2023</h4>
+          <p class="post-desc">Ichigo's most distinguishing feature is his spiky orange hair, a trait he has been
+            ridiculed about for years on end. He is a fairly tall, lean-built young man with peach skin and brown eyes.
+            He likes to wear slim fitting clothes. He has a tendency to wear shirts patterned with the number 15
+            because his name is a homonym for the number. Since becoming a Shinigami, he has become noticeably more
+            muscular, as noted by his sister Karin. When in his spiritual form, Ichigo wears the standard Shinigami
+            shihakushō, with the addition of a strap across his chest. Initially, it was a thick brown belt to hold his
+            Zanpakutō sheath, but it later became a red rosary-like strap after awakening his own Shinigami powers.
+            It is shaped like a kite with a flat top and bottom. Ichigo's appearance has caused several people,
+            including Jūshirō Ukitake, to note a similarity to Kaien Shiba, the former lieutenant of the 13th
+            Division. After training in the Dangai, Ichigo's hair grows considerably, and he is noticeably taller,
+            as stated by his friends. After Ichigo loses his Shinigami powers, his appearance reverts to the way it
+            was before his Dangai training.</p>
+        </div>
+      </div>
+
+      <div class="post-card" id="#forth-post">
+        <img src="/Assets/Images/fairy-tail.png" alt="Natsu" class=post-img>
+        <div class="post-info">
+          <h2 class="post-title">Natsu Dragneel</h2>
+          <h4 class="post-date">Jan 12, 2023</h4>
+          <p class="post-desc">Natsu is a lean, muscular young man of average height with a slightly tan skin tone,
+            black eyes, spiky pink-colored hair, and has abnormal sharp canines; Natsu has a scar on the right side
+            of his neck, hidden by his scarf. Following his intense battle with the Rogue Cheney of the future, Natsu
+            gains a cross-shaped scar on the left side of his abdomen, a result of the two fatal wounds the man dealt to
+            him during their altercations. He later attains a new scar, this one being a jagged blemish on his right
+            cheek, which he gained following his battle with Zeref. Natsu's guild mark is red and is located just
+            below his right shoulder.</p>
+        </div>
+      </div>
+
+    </section>
   </div>
 </body>
 
