@@ -1,95 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #FDFDFF;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
+@import url('typography.css');
+@import url('style.css');
 
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   gap: 50px;
-}
-
-header {
-  background-color: rgb(255, 255, 255);
-  height: 70px;
-  width: 100%;
-  box-shadow: 0px 0px 20px #A8A8A829;
-  grid-area: header;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header p {
-  font-family: 'Almarai';
-  font-weight: bold;
-  padding-left: 10px;
-  letter-spacing: 2px;
-  font-size: 28px;
-  color: #bd3106;
-}
-
-header ul {
-  list-style: none;
-  display: flex;
-  gap: 10px;
-  padding-right: 30px
-}
-
-header ul li {
-  font-family: 'Almarai';
-  font-weight: bold;
-  font-size: 18px;
-  padding-left: 10px;
-  letter-spacing: 2px;
-  color: #bd3106;
-  cursor: pointer;
-}
-
-header ul li:hover {
-  color: #bd310670;
-}
-
-#title {
-  font-family: 'Almarai';
-  font-weight: bold;
-  font-size: 32px;
-  text-align: center;
-  margin: 35px 0;
-  color: #bd3106;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  background-color: #ffffff;
-  box-shadow: 0px 0px 20px #A8A8A829;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Almarai';
-  font-weight: normal;
-  font-size: 14px;
-  color: #000000;
-}
-
-a {
-  color: #bd3106;
-  text-decoration: none;
 }
 
 .personal-information {
@@ -105,56 +22,12 @@ a {
   box-shadow: 0px 0px 20px #A8A8A829;
 }
 
-.name {
-  font-family: 'Almarai';
-  font-weight: bold;
-  font-size: 24px;
-  color: #ffffff;
-  padding-bottom: 5px;
-}
-
-.job {
-  font-family: 'Almarai';
-  font-weight: bold;
-  font-size: 18px;
-  color: #ffffff;
-  padding-bottom: 5px;
-}
-
-.description {
-  font-family: 'Almarai';
-  font-weight: normal;
-  font-size: 16px;
-  color: #ffffff;
-  padding-bottom: 5px;
-  text-align: justify;
-}
-
 .colors {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 50px;
-}
-
-.title {
-  font-family: 'Almarai';
-  font-weight: normal;
-  font-size: 26px;
-  color: #000000;
-  padding-bottom: 35px;
-  text-align: center;
-}
-
-.color-set {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
-  text-align: center;
-  color: #000000;
-  font-family: 'Almarai';
 }
 
 .circle {
@@ -166,24 +39,6 @@ a {
   box-shadow: 0px 0px 20px #A8A8A829;
 }
 
-.fonts {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 50px;
-  font-family: 'Almarai';
-}
-
-.title {
-  font-family: 'Almarai';
-  font-weight: normal;
-  font-size: 26px;
-  color: #000000;
-  padding-bottom: 35px;
-  text-align: center;
-}
-
 .font-set {
   display: flex;
   justify-content: center;
@@ -193,41 +48,19 @@ a {
   color: #000000;
 }
 
-@media(max-width: 2000px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+#circle-1 {
+  background-color: #bd3106;
+}
 
-  body {
-    background-color: #FDFDFF;
-  }
+#circle-2 {
+  background-color: #ffffff;
+}
 
-  header p {
-    font-size: 20px;
-  }
-
-  header ul li {
-    font-size: 14px;
-    padding-left: 0px;
-  }
+#circle-3 {
+  background-color: #000000;
 }
 
 @media(max-width: 726px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    background-color: #FDFDFF;
-  }
-
-  #title {
-    font-size: 18px;
-  }
 
   .color-set {
     flex-direction: column;

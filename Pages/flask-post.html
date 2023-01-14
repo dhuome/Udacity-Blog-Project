@@ -15,7 +15,7 @@
 
 <body>
   <header>
-    <img src="../Assets/Images/logo.png" width="150px">
+    <img src="../Assets/Images/logo.png" width="150px" alt="logo">
     <div>
       <ul>
         <li><a href="../index.html">Post's</a></li>
@@ -24,29 +24,41 @@
     </div>
   </header>
 
-  <p id="title">Tailwind CSS</p>
+  <p id="title">Flask (web framework)</p>
 
   <div class="container">
-    <img src="../Assets/Images/flask-icon.png" width="300">
+    <img src="../Assets/Images/flask-icon.png" width="300" alt="card-post-img">
+
+    <div class="Author-info">
+      <div class="author-box-1">
+        <p><b>Author:</b> <u>Armin Ronacher</u></p> <br />
+        <p><b>Title:</b> <u>Flask</u></p><br />
+        <p><b>Written in:</b> <u>Python</u></p><br />
+        <p><b>Type:</b> <u>Web platform</u></p><br />
+      </div>
+      <div>
+        <img src="../Assets/Images/armin-flask-image.jpeg" alt="armin-flask-author" width="100">
+        <p><b>Bio:</b> <em> is an Austrian open source software programmer and the creator of the Flask web framework
+            for Python.
+
+            He is a frequent speaker at developer conferences and has a popular blog about software development and open
+            source.</em></p>
+      </div>
+    </div>
+
     <div class="info-card">
       <p class="post-description"><span id="description">Description: </span>
-        Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS
-        frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or
-        tables. Instead, it creates a list of "utility" CSS classes that can be used to style each element by mixing and
-        matching.
+        Flask is a micro web framework written in Python. It is classified as a microframework because it does not
+        require particular tools or libraries. It has no database abstraction layer, form validation, or any other
+        components where pre-existing third-party libraries provide common functions. However, Flask supports extensions
+        that can add application features as if they were implemented in Flask itself. Extensions exist for
+        object-relational mappers, form validation, upload handling, various open authentication technologies and
+        several common framework related tools.
 
-        For example, in other traditional systems, there would be a class message-warning that would apply a yellow
-        background color and bold text. To achieve this result in Tailwind, one would have to apply a set of classes
-        created by the library: bg-yellow-200 and font-bold.
-
-        As of January 2023, Tailwind CSS has over 63,000 stars on GitHub.
-
-        The utility-first concept refers to the main differentiating feature of Tailwind.[6] Instead of creating classes
-        around components (button, panel, menu, textbox ...), classes are built around a specific style element (yellow
-        color, bold font, very large text, center element...). Each of these classes is called utility classes.
-
-        There are many utility classes in TailwindCSS that enable to control a large number of CSS properties like
-        colors, border, display type (display), font size and font, layout, shadow...
+        Applications that use the Flask framework include Pinterest and LinkedIn.
+        Flask was created by Armin Ronacher of Pocoo, an international group of Python enthusiasts formed in 2004.
+        According to Ronacher, the idea was originally an April Fool's joke that was popular enough to make into a
+        serious application. The name is a play on the earlier Bottle framework.
       </p>
     </div>
   </div>
@@ -54,10 +66,22 @@
 </body>
 
 <footer>
-  <p>Powered By</p>
-  <img src="../Assets/Images/logo.png" width="100px">
-  <p>&copy 2023</p>
-
+  <div id="title">
+    <h6>FoxTech</h6>
+  </div>
+  <div class="flex">
+    <p>Powered By</p>
+    <img src="../Assets/Images/logo.png" width="100px" alt="logo">
+    <p>&copy 2023</p>
+  </div>
+  <div class="contact">
+    <a href="https://github.com/dhuome" target="_blank"><img src="../Assets/Images/github-icon.svg" alt="github"
+        width="30"></a>
+    <a href="https://sa.linkedin.com/in/abdulrahman-bin-rushud-30a668175" target="_blank"><img
+        src="../Assets/Images/linkedin-icon.svg" alt="linkedin" width="30"></a>
+    <a href="https://mobile.twitter.com/dhuome_" target="_blank"><img src="../Assets/Images/twitter-icon.svg"
+        alt="twitter" width="30"></a>
+  </div>
 </footer>
 
 </html>
