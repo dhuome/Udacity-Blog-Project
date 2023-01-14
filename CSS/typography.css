@@ -137,6 +137,22 @@ header ul li {
   text-align: center;
 }
 
+.font-1 {
+  font-weight: 300;
+}
+
+.font-2 {
+  font-weight: 400;
+}
+
+.font-3 {
+  font-weight: 600;
+}
+
+.font-4 {
+  font-weight: 700;
+}
+
 figcaption {
   font-family: 'Almarai';
   font-weight: normal;
